@@ -7,3 +7,4 @@ Author: Shahar Frechter
 Maintainer: Gregory Jefferis <jefferis@gmail.com>
 Description: Filemaker database dump uses ODBC
 License: GPL-3
+LazyData: yes
