@@ -27,6 +27,7 @@ devtools::install("~/mycode/physplitdata")
 You will probably want to install the https://github.com/sfrechter/physplit.analysis package, even if you just want to export the data
 
 ```r
+devtools::install_github("jefferis/gphys")
 devtools::install_github("sfrechter/physplit.analysis")
 ```
 then
