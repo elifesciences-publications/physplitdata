@@ -15,6 +15,13 @@ NULL
 #' @name PhySplitDB
 NULL
 
+#' A dump of passive cell properties
+#' 
+#' This is initally created by CollectCellProperties
+#' @docType data 
+#' @name ravc
+NULL
+
 #' All spikes from Shahar's cells
 #' 
 #' This is initally created by CollectSpikes.R. The object is of
