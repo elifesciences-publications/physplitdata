@@ -12,7 +12,7 @@ Sys.setenv(GITHUB_PAT='0a98ec3dda8b45e229da9bedc338e27d00c42383')
 ### Straight from github
 ```r
 if(!require("devtools")) install.packages("devtools")
-devtools::install_github("jefferislab/physplitdata.git")
+devtools::install_github("jefferislab/physplitdata")
 ```
 
 ### Straight from bitbucket (deprecated, use github)
