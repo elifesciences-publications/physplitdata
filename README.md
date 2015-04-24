@@ -1,7 +1,21 @@
 # physplitdata
 
 ## Install
-### Straight from bitbucket
+Installation is slightly complicated because this is a private repo. You therefore need some
+form of authentication. The recommended way is to set up a github Personal Access Token (PAT)
+and use that with install_github. You can generate that at https://github.com/settings/applications.
+You could then put something like this in your `~/.Rprofile` (don't worry that's not my PAT!).
+```R
+Sys.setenv(GITHUB_PAT='0a98ec3dda8b45e229da9bedc338e27d00c42383')
+```
+
+### Straight from github
+```r
+if(!require("devtools")) install.packages("devtools")
+devtools::install_github("jefferislab/physplitdata.git")
+```
+
+### Straight from bitbucket (deprecated, use github)
 ```r
 if(!require("devtools")) install.packages("devtools")
 # nb you will have to replace XXXX with your bitbucket credentials
