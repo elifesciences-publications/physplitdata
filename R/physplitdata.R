@@ -29,7 +29,23 @@ NULL
 NULL
 
 
+#' A dump of the final IV and passive cell properties dataframe
+#' This is initally created by CollectCellProperties
+#' @docType data
+#' @name allparams
+NULL
 
+#' A dump of the final IV cell properties dataframe 3 points/cell
+#' This is initally created by CollectCellProperties
+#' @docType data
+#' @name IVInpResbig
+NULL
+
+#' A dump of the final IV cell properties dataframe
+#' This is initally created by CollectCellProperties
+#' @docType data
+#' @name IVfinalDF
+NULL
 
 #' All spikes from Shahar's cells
 #'
