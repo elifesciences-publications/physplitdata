@@ -28,7 +28,7 @@ In the shell/terminal
 ```sh
 # or wherever
 cd ~/mycode
-git clone git@bitbucket.org:jefferislab/physplitdata.git
+git clone git@github.com:jefferislab/physplitdata.git
 ```
 
 In R
