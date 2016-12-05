@@ -67,3 +67,15 @@ NULL
 #' @seealso \code{\link{Spikes}}, \code{\link[gphys]{smpsth}},
 #'   \code{\link[STAR]{psth}}
 NULL
+
+#' Smoothed average membrane potential for Shahar's cells
+#'
+#' This is initally created by make_vm.R. Each individual object in the list was
+#' created by the smooth_decimate function.
+#' @docType data
+#' @name Vm
+#' @seealso \code{\link{Spikes}}
+#' @examples 
+#' plot(Spikes[[1]][[1]])
+#' AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
+NULL
