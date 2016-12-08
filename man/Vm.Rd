@@ -9,8 +9,11 @@ This is initally created by make_vm.R. Each individual object in the list was
 created by the smooth_decimate function.
 }
 \examples{
+\dontrun{
+library(gphys)
 plot(Spikes[[1]][[1]])
 AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
+}
 }
 \seealso{
 \code{\link{Spikes}}

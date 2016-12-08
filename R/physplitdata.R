@@ -50,7 +50,7 @@ NULL
 #' All spikes from Shahar's cells
 #'
 #' This is initally created by CollectSpikes.R. The object is of
-#' class \code{\link[gphys]{spiketimes}}
+#' class \code{\link[gphys]{spiketimes}}.
 #' @docType data
 #' @name Spikes
 #' @seealso \code{\link{smSpikes}}
@@ -75,7 +75,10 @@ NULL
 #' @docType data
 #' @name Vm
 #' @seealso \code{\link{Spikes}}
-#' @examples 
+#' @examples
+#' \dontrun{
+#' library(gphys)
 #' plot(Spikes[[1]][[1]])
 #' AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
+#' }
 NULL
