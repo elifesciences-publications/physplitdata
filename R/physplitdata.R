@@ -50,7 +50,7 @@ NULL
 #' All spikes from Shahar's cells
 #'
 #' This is initally created by CollectSpikes.R. The object is of
-#' class \code{\link[gphys]{spiketimes}}
+#' class \code{\link[gphys]{spiketimes}}.
 #' @docType data
 #' @name Spikes
 #' @seealso \code{\link{smSpikes}}
@@ -66,4 +66,19 @@ NULL
 #' @name smSpikes
 #' @seealso \code{\link{Spikes}}, \code{\link[gphys]{smpsth}},
 #'   \code{\link[STAR]{psth}}
+NULL
+
+#' Smoothed average membrane potential for Shahar's cells
+#'
+#' This is initally created by make_vm.R. Each individual object in the list was
+#' created by the smooth_decimate function.
+#' @docType data
+#' @name Vm
+#' @seealso \code{\link{Spikes}}
+#' @examples
+#' \dontrun{
+#' library(gphys)
+#' plot(Spikes[[1]][[1]])
+#' AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
+#' }
 NULL

@@ -10,6 +10,8 @@ Sys.setenv(GITHUB_PAT='0a98ec3dda8b45e229da9bedc338e27d00c42383')
 ```
 
 ### Straight from github
+If you already have physplitdata (or physplit.analysis) loaded then you need to restart R before (or after) installing.
+
 ```r
 if(!require("devtools")) install.packages("devtools")
 devtools::install_github("jefferislab/physplitdata")
@@ -28,7 +30,7 @@ In the shell/terminal
 ```sh
 # or wherever
 cd ~/mycode
-git clone git@bitbucket.org:jefferislab/physplitdata.git
+git clone git@github.com:jefferislab/physplitdata.git
 ```
 
 In R
