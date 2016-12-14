@@ -82,3 +82,25 @@ NULL
 #' AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
 #' }
 NULL
+
+#' Well registered tracings of LHNs (and accompanying metadata)
+#' 
+#' This is initally created by \code{data-raw/lhnsxfinal.R} which in turn 
+#' depends on \code{LHNTracing/R/lhnsxfinal.R}. Note that metadata is always
+#' updated from PhySplitDB when this object is updated in this package.
+#' @docType data
+#' @name lhnsxfinal
+#' @seealso \code{\link{PhySplitDB}}
+#' @examples 
+#' \dontrun{
+#' library(nat)
+#' plot3d(lhnsxfinal)
+#' 
+#' # Try morphological clustering
+#' lhnsxfinal.dps=dotprops(lhnsxfinal, resample=1, k=5)
+#' library(nat.nblast)
+#' lhnsxfinal.aba=nblast_allbyall(lhnsxfinal.dps)
+#' hc=nhclust(scoremat = lhnsxfinal.aba)
+#' plot(hc)
+#' }
+NULL
