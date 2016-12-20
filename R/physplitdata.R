@@ -104,3 +104,31 @@ NULL
 #' plot(hc)
 #' }
 NULL
+
+#' Primary neurite tracts (and accompanying metadata)
+#' 
+#' @description \code{primary_neurites.is2} is in the IS2 template brain space
+#'   (Jefferis Lab).
+#'   
+#' @details This is initally created by \code{data-raw/pct.R} which in turn
+#'   depends on \code{LHNTracing/R/MakeParentClusters.R}.
+#'   
+#' @docType data
+#' @name primary_neurites.is2
+#' @aliases primary_neurites
+#' @seealso \code{\link{lhnsxfinal}}
+#' @examples
+#' head(primary_neurites.is2)
+#' \dontrun{
+#' library(nat.flybrains)
+#' plot3d(primary_neurites.is2, col=factor(finalcluster))
+#' plot3d(IS2)
+#' }
+NULL
+
+#' @description \code{primary_neurites.jfrc2} is in the JFRC2 template brain
+#'   space (Janelia / Virtual Fly Brain).
+#' @docType data
+#' @name primary_neurites.jfrc2
+#' @rdname primary_neurites.is2
+NULL
