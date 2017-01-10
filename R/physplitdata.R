@@ -15,6 +15,31 @@ NULL
 #' @name PhySplitDB
 NULL
 
+#' A dump of Primary neurite Clusters and Neuroblast lineages from JFRCSH db
+#' 
+#' @details This is initally created by DumpDatabase.R and then added using 
+#'   data-raw/db.R
+#'   
+#' @return This data.frame includes the following fields: \itemize{
+#'   
+#'   \item \code{jfrcsh.celltype} the JFRCSH celltype or cluster number (i.e. as
+#'   defined during annotation of FlyLight GAL4 lines). Cell Types will usually 
+#'   have a letter.
+#'   
+#'   \item \code{finalcluster} - the primary neurite cluster (see PhySplitDB)
+#'   
+#'   \item \code{SomaLocation} - the location of the somata for these neurons 
+#'   with respect to the lateral horn neuropil.
+#'   
+#'   \item \code{NB-NB5} identity of NB associated with these neurons in 
+#'   decreasing order of likelihood.
+#'   
+#'   }
+#'   
+#' @docType data
+#' @name ClustersDB
+NULL
+
 #' A dump of passive cell properties
 #'
 #' This is initally created by CollectCellProperties

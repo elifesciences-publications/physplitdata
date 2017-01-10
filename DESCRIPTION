@@ -5,6 +5,10 @@ Version: 1.0
 Date: 2015-03-06
 Author: Shahar Frechter
 Maintainer: Gregory Jefferis <jefferis@gmail.com>
-Description: Filemaker database dump uses ODBC
+Description: Packaged version of spike data and database data for Frechter et al
+    study of lateral horn anatomy and odour responses (aka 2015lhns). The database
+    dumps use ODBC to access the FileMaker databases.
 License: GPL-3
 LazyData: yes
+Depends:
+    R (>= 2.10)
