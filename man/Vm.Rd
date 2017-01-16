@@ -11,8 +11,8 @@ created by the smooth_decimate function.
 \examples{
 \dontrun{
 library(gphys)
-plot(Spikes[[1]][[1]])
-AddLinesToRasterPlot(Vm[[1]], ylim=c(-65,-35), col='darkgreen')
+plot(Spikes[['nm20120605c0']][[1]])
+AddLinesToRasterPlot(Vm[['nm20120605c0']], ylim=c(-65,-35), col='darkgreen')
 }
 }
 \seealso{
