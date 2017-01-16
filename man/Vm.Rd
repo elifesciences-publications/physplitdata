@@ -16,6 +16,6 @@ AddLinesToRasterPlot(Vm[['nm20120605c0']], ylim=c(-65,-35), col='darkgreen')
 }
 }
 \seealso{
-\code{\link{Spikes}}
+\code{\link{Spikes}}, \code{\link[gphys]{AddLinesToRasterPlot}}
 }
 

@@ -78,7 +78,7 @@ NULL
 #' class \code{\link[gphys]{spiketimes}}.
 #' @docType data
 #' @name Spikes
-#' @seealso \code{\link{smSpikes}}
+#' @seealso \code{\link{smSpikes}}, \code{\link{Vm}}
 NULL
 
 #' Smoothed PSTH for all spikes from Shahar's cells
@@ -99,7 +99,7 @@ NULL
 #' created by the smooth_decimate function.
 #' @docType data
 #' @name Vm
-#' @seealso \code{\link{Spikes}}
+#' @seealso \code{\link{Spikes}}, \code{\link[gphys]{AddLinesToRasterPlot}}
 #' @examples
 #' \dontrun{
 #' library(gphys)

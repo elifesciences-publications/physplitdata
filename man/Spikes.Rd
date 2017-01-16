@@ -9,6 +9,6 @@ This is initally created by CollectSpikes.R. The object is of
 class \code{\link[gphys]{spiketimes}}.
 }
 \seealso{
-\code{\link{smSpikes}}
+\code{\link{smSpikes}}, \code{\link{Vm}}
 }
 
