@@ -15,6 +15,29 @@ NULL
 #' @name PhySplitDB
 NULL
 
+#' Database dump of correspondences between anatomical and functional cell types
+#' 
+#' This is initally created by DumpDatabase.R
+#' @docType data
+#' @name classATAGDB
+#' @return This data.frame includes the following two important fields: 
+#'   \itemize{
+#'   
+#'   \item \code{class} The cell class defined by its odour response 
+#'   profile/driver line
+#'   
+#'   \item \code{AT} The obsolete Anatomy type (a mid-level classifcation of 
+#'   cells by identify)
+#'   
+#'   \item \code{anatomy.group} The mid-level definition of anatomical type 
+#'   within the final hierarchy of i) primary neurite tract ii) anatomy group, 
+#'   iii) cell type. The anatomy.group is defined by the primary neurite tract 
+#'   and the main tracts taken by the axon and primary dendrite to reach their 
+#'   arborisation zones.
+#'   
+#'   }
+NULL
+
 #' A dump of Primary neurite Clusters and Neuroblast lineages from JFRCSH db
 #' 
 #' @details This is initally created by DumpDatabase.R and then added using 
