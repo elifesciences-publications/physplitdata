@@ -16,3 +16,7 @@ ClustersDB=subset(ClustersDB, !duplicated(jfrcsh.celltype))
 
 library(devtools)
 use_data(ClustersDB, overwrite = T)
+
+# this does not need any further action
+load("~/projects/Shahar/LHNTracing/db/classATAGDB.rda")
+use_data(classATAGDB, overwrite = T)
