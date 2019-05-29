@@ -1,10 +1,12 @@
 Package: physplitdata
 Type: Package
 Title: A packaged version of spike data and database data for physplit project
-Version: 1.0
-Date: 2015-03-06
-Author: Shahar Frechter
-Maintainer: Gregory Jefferis <jefferis@gmail.com>
+Version: 1.1
+Authors@R: c(
+    person("Shahar", "Frechter", role = c("aut"),
+      comment = c(ORCID = "0000-0002-0431-5849")),
+    person("Gregory", "Jefferis", email = "jefferis@gmail.com", role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-0587-9355")))
 Description: Packaged version of spike data and database data for Frechter et al
     study of lateral horn anatomy and odour responses (aka 2015lhns). The database
     dumps use ODBC to access the FileMaker databases.
