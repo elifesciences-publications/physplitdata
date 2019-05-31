@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Smoothed average membrane potential for Shahar's cells — Vm • physplitdata</title>
+<title>Packaged and versioned spikes and metadata for Shahar's cells — physplitdata-package • physplitdata</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,10 +30,10 @@
 
 
 
-<meta property="og:title" content="Smoothed average membrane potential for Shahar's cells — Vm" />
+<meta property="og:title" content="Packaged and versioned spikes and metadata for Shahar's cells — physplitdata-package" />
 
-<meta property="og:description" content="This is initally created by make_vm.R. Each individual object in the list was
-created by the smooth_decimate function." />
+<meta property="og:description" content="The main objects are Spikes, smSpikes and
+PhySplitDB" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -103,46 +103,47 @@ created by the smooth_decimate function." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Smoothed average membrane potential for Shahar's cells</h1>
-    <small class="dont-index">Source: <a href='https://github.com/jefferislab/physplitdata/blob/master/R/physplitdata.R'><code>R/physplitdata.R</code></a></small>
-    <div class="hidden name"><code>Vm.Rd</code></div>
+    <h1>Packaged and versioned spikes and metadata for Shahar's cells</h1>
+    <small class="dont-index">Source: <a href='https://github.com/jefferislab/physplitdata/blob/master/R/physplitdata-package.R'><code>R/physplitdata-package.R</code></a></small>
+    <div class="hidden name"><code>physplitdata-package.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>This is initally created by make_vm.R. Each individual object in the list was
-created by the smooth_decimate function.</p>
+    <p>The main objects are <code><a href='Spikes.html'>Spikes</a></code>, <code><a href='smSpikes.html'>smSpikes</a></code> and
+<code><a href='PhySplitDB.html'>PhySplitDB</a></code></p>
     
     </div>
 
-    <pre class="usage"><span class='no'>Vm</span></pre>
         
-    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>An object of class <code>list</code> of length 492.</p>
+    <p>Data objects initally created by external code <code>make_physplitdata.R</code>.</p>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='Spikes.html'>Spikes</a></code>, <code><a href='https://www.rdocumentation.org/packages/gphys/topics/AddLinesToRasterPlot'>AddLinesToRasterPlot</a></code></p></div>
+    <div class='dont-index'><p>Useful links:</p><ul>
+<li><p><a href='https://github.com/jefferislab/physplitdata'>https://github.com/jefferislab/physplitdata</a></p></li>
+<li><p>Report bugs at <a href='https://github.com/jefferislab/physplitdata/issues'>https://github.com/jefferislab/physplitdata/issues</a></p></li>
+</ul></div>
     
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><span class='co'># NOT RUN {</span>
-<span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/library'>library</a></span>(<span class='no'>gphys</span>)
-<span class='fu'><a href='https://www.rdocumentation.org/packages/graphics/topics/plot'>plot</a></span>(<span class='no'>Spikes</span><span class='kw'>[[</span><span class='st'>'nm20120605c0'</span>]]<span class='kw'>[[</span><span class='fl'>1</span>]])
-<span class='fu'><a href='https://www.rdocumentation.org/packages/gphys/topics/AddLinesToRasterPlot'>AddLinesToRasterPlot</a></span>(<span class='no'>Vm</span><span class='kw'>[[</span><span class='st'>'nm20120605c0'</span>]], <span class='kw'>ylim</span><span class='kw'>=</span><span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/c'>c</a></span>(-<span class='fl'>65</span>,-<span class='fl'>35</span>), <span class='kw'>col</span><span class='kw'>=</span><span class='st'>'darkgreen'</span>)
-<span class='co'># }</span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
       
-      <li><a href="#format">Format</a></li>
+      <li><a href="#details">Details</a></li>
 
       <li><a href="#see-also">See also</a></li>
-      
-      <li><a href="#examples">Examples</a></li>
-    </ul>
+          </ul>
+
+    <h2>Author</h2>
+    <p><strong>Maintainer</strong>: Gregory Jefferis <a href='mailto:jefferis@gmail.com'>jefferis@gmail.com</a> (0000-0002-0587-9355)</p>
+<p>Authors:</p><ul>
+<li><p>Shahar Frechter (0000-0002-0431-5849)</p></li>
+</ul>
+
 
   </div>
 </div>
