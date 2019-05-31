@@ -1,15 +1,6 @@
 # physplitdata
 
 ## Install
-Installation is slightly complicated because this is a private repo. You therefore need some
-form of authentication. The recommended way is to set up a github Personal Access Token (PAT)
-and use that with install_github. You can generate that at https://github.com/settings/applications.
-You could then put something like this in your `~/.Rprofile` (don't worry that's not my PAT!).
-
-```R
-Sys.setenv(GITHUB_PAT='0a98ec3dda8b45e229da9bedc338e27d00c42383')
-```
-
 ### Straight from github
 If you already have physplitdata (or physplit.analysis) loaded then you need to restart R before (or after) installing.
 
@@ -19,7 +10,7 @@ devtools::install_github("jefferislab/physplitdata")
 ```
 
 ### Clone repo then install
-Alternatively, you can also clone the repository to create a local checkout of the source tree of the physplitdata package. It is strongly recommended to [upload your public key to bitbucket](https://confluence.atlassian.com/display/BITBUCKET/How+to+install+a+public+key+on+your+Bitbucket+account).
+Alternatively, you can also clone the repository to create a local checkout of the source tree of the physplitdata package. 
 
 In the shell/terminal
 ```sh
