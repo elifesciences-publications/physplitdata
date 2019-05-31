@@ -1,18 +1,20 @@
 Package: physplitdata
 Type: Package
 Title: A packaged version of spike data and database data for physplit project
-Version: 1.1
+Version: 1.2
 Authors@R: c(
     person("Shahar", "Frechter", role = c("aut"),
       comment = c(ORCID = "0000-0002-0431-5849")),
     person("Gregory", "Jefferis", email = "jefferis@gmail.com", role = c("aut", "cre"),
       comment = c(ORCID = "0000-0002-0587-9355")))
-Description: Packaged version of spike data and database data for Frechter et al
-    study of lateral horn anatomy and odour responses (aka 2015lhns). The database
-    dumps use ODBC to access the FileMaker databases.
+Description: Packaged version of spike data and metadata for Frechter et al
+    study of lateral horn anatomy and odour responses (aka 2015lhns). The 
+    database metadata dumps used ODBC to access project FileMaker databases.
 License: GPL-3
 LazyData: yes
 Depends:
     R (>= 2.10)
 RoxygenNote: 6.1.1
 Encoding: UTF-8
+URL: https://github.com/jefferislab/physplitdata
+BugReports: https://github.com/jefferislab/physplitdata/issues
