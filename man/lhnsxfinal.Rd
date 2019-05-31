@@ -4,6 +4,10 @@
 \name{lhnsxfinal}
 \alias{lhnsxfinal}
 \title{Well registered tracings of LHNs (and accompanying metadata)}
+\format{An object of class \code{neuronlist} (inherits from \code{list}) of length 147.}
+\usage{
+lhnsxfinal
+}
 \description{
 This is initally created by \code{data-raw/lhnsxfinal.R} which in turn 
 depends on \code{LHNTracing/R/lhnsxfinal.R}. Note that metadata is always
@@ -25,3 +29,4 @@ plot(hc)
 \seealso{
 \code{\link{PhySplitDB}}
 }
+\keyword{datasets}

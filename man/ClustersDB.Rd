@@ -4,6 +4,10 @@
 \name{ClustersDB}
 \alias{ClustersDB}
 \title{A dump of Primary neurite Clusters and Neuroblast lineages from JFRCSH db}
+\format{An object of class \code{data.frame} with 163 rows and 10 columns.}
+\usage{
+ClustersDB
+}
 \value{
 This data.frame includes the following fields: \itemize{
   
@@ -28,3 +32,4 @@ A dump of Primary neurite Clusters and Neuroblast lineages from JFRCSH db
 This is initally created by DumpDatabase.R and then added using 
   data-raw/db.R
 }
+\keyword{datasets}

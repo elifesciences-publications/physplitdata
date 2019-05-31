@@ -5,7 +5,12 @@
 \alias{IVInpResbig}
 \title{A dump of the final IV cell properties dataframe 3 points/cell
 This is initally created by CollectCellProperties}
+\format{An object of class \code{list} of length 447.}
+\usage{
+IVInpResbig
+}
 \description{
 A dump of the final IV cell properties dataframe 3 points/cell
 This is initally created by CollectCellProperties
 }
+\keyword{datasets}

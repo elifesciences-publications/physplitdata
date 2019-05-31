@@ -4,6 +4,11 @@
 \name{PhySplitDB}
 \alias{PhySplitDB}
 \title{A dump of key cell metadata from the PhySplit Filemaker database}
+\format{An object of class \code{data.frame} with 587 rows and 28 columns.}
+\usage{
+PhySplitDB
+}
 \description{
 This is initally created by DumpDatabase.R
 }
+\keyword{datasets}

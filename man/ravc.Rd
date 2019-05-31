@@ -4,6 +4,11 @@
 \name{ravc}
 \alias{ravc}
 \title{A dump of passive cell properties}
+\format{An object of class \code{list} of length 378.}
+\usage{
+ravc
+}
 \description{
 This is initally created by CollectCellProperties
 }
+\keyword{datasets}

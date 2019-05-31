@@ -5,7 +5,12 @@
 \alias{cpdf.summ}
 \title{A dump of the final passive cell properties dataframe
 This is initally created by CollectCellProperties}
+\format{An object of class \code{data.frame} with 378 rows and 32 columns.}
+\usage{
+cpdf.summ
+}
 \description{
 A dump of the final passive cell properties dataframe
 This is initally created by CollectCellProperties
 }
+\keyword{datasets}

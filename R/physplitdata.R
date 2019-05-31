@@ -1,19 +1,9 @@
-#' Packaged and versioned spikes and metadata for Shahar's cells
-#'
-#' The main objects are \code{\link{Spikes}}, \code{\link{smSpikes}} and \code{\link{PhySplitDB}}
-#'
-#' This is initally created by make_physplitdata.R
-#' @docType package
-#' @name physplitdata
-NULL
-
-
 #' A dump of key cell metadata from the PhySplit Filemaker database
 #'
 #' This is initally created by DumpDatabase.R
 #' @docType data
 #' @name PhySplitDB
-NULL
+"PhySplitDB"
 
 #' Database dump of correspondences between anatomical and functional cell types
 #' 
@@ -61,39 +51,39 @@ NULL
 #'   
 #' @docType data
 #' @name ClustersDB
-NULL
+"ClustersDB"
 
 #' A dump of passive cell properties
 #'
 #' This is initally created by CollectCellProperties
 #' @docType data
 #' @name ravc
-NULL
+"ravc"
 
 #' A dump of the final passive cell properties dataframe
 #' This is initally created by CollectCellProperties
 #' @docType data
 #' @name cpdf.summ
-NULL
+"cpdf.summ"
 
 
 #' A dump of the final IV and passive cell properties dataframe
 #' This is initally created by CollectCellProperties
 #' @docType data
 #' @name allparams
-NULL
+"allparams"
 
 #' A dump of the final IV cell properties dataframe 3 points/cell
 #' This is initally created by CollectCellProperties
 #' @docType data
 #' @name IVInpResbig
-NULL
+"IVInpResbig"
 
 #' A dump of the final IV cell properties dataframe
 #' This is initally created by CollectCellProperties
 #' @docType data
 #' @name IVfinalDF
-NULL
+"IVfinalDF"
 
 #' All spikes from Shahar's cells
 #'
@@ -102,7 +92,7 @@ NULL
 #' @docType data
 #' @name Spikes
 #' @seealso \code{\link{smSpikes}}, \code{\link{Vm}}
-NULL
+"Spikes"
 
 #' Smoothed PSTH for all spikes from Shahar's cells
 #'
@@ -114,7 +104,7 @@ NULL
 #' @name smSpikes
 #' @seealso \code{\link{Spikes}}, \code{\link[gphys]{smpsth}},
 #'   \code{\link[STAR]{psth}}
-NULL
+"smSpikes"
 
 #' Smoothed average membrane potential for Shahar's cells
 #'
@@ -129,7 +119,7 @@ NULL
 #' plot(Spikes[['nm20120605c0']][[1]])
 #' AddLinesToRasterPlot(Vm[['nm20120605c0']], ylim=c(-65,-35), col='darkgreen')
 #' }
-NULL
+"Vm"
 
 #' Well registered tracings of LHNs (and accompanying metadata)
 #' 
@@ -151,7 +141,7 @@ NULL
 #' hc=nhclust(scoremat = lhnsxfinal.aba)
 #' plot(hc)
 #' }
-NULL
+"lhnsxfinal"
 
 #' Primary neurite tracts (and accompanying metadata)
 #' 
@@ -172,11 +162,11 @@ NULL
 #' plot3d(primary_neurites.is2, col=factor(finalcluster))
 #' plot3d(IS2)
 #' }
-NULL
+"primary_neurites.is2"
 
 #' @description \code{primary_neurites.jfrc2} is in the JFRC2 template brain
 #'   space (Janelia / Virtual Fly Brain).
 #' @docType data
 #' @name primary_neurites.jfrc2
 #' @rdname primary_neurites.is2
-NULL
+"primary_neurites.jfrc2"

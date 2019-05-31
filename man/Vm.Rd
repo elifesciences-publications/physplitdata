@@ -4,6 +4,10 @@
 \name{Vm}
 \alias{Vm}
 \title{Smoothed average membrane potential for Shahar's cells}
+\format{An object of class \code{list} of length 492.}
+\usage{
+Vm
+}
 \description{
 This is initally created by make_vm.R. Each individual object in the list was
 created by the smooth_decimate function.
@@ -18,3 +22,4 @@ AddLinesToRasterPlot(Vm[['nm20120605c0']], ylim=c(-65,-35), col='darkgreen')
 \seealso{
 \code{\link{Spikes}}, \code{\link[gphys]{AddLinesToRasterPlot}}
 }
+\keyword{datasets}

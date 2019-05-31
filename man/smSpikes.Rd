@@ -4,6 +4,10 @@
 \name{smSpikes}
 \alias{smSpikes}
 \title{Smoothed PSTH for all spikes from Shahar's cells}
+\format{An object of class \code{list} of length 469.}
+\usage{
+smSpikes
+}
 \description{
 This is initally created by CollectSpikes.R
 }
@@ -15,3 +19,4 @@ a time step of 0.05
 \code{\link{Spikes}}, \code{\link[gphys]{smpsth}},
   \code{\link[STAR]{psth}}
 }
+\keyword{datasets}

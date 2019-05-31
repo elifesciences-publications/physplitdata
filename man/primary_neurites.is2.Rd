@@ -6,6 +6,12 @@
 \alias{primary_neurites}
 \alias{primary_neurites.jfrc2}
 \title{Primary neurite tracts (and accompanying metadata)}
+\format{An object of class \code{neuronlist} (inherits from \code{list}) of length 48.}
+\usage{
+primary_neurites.is2
+
+primary_neurites.jfrc2
+}
 \description{
 \code{primary_neurites.is2} is in the IS2 template brain space
   (Jefferis Lab).
@@ -28,3 +34,4 @@ plot3d(IS2)
 \seealso{
 \code{\link{lhnsxfinal}}
 }
+\keyword{datasets}

@@ -4,6 +4,10 @@
 \name{Spikes}
 \alias{Spikes}
 \title{All spikes from Shahar's cells}
+\format{An object of class \code{list} of length 469.}
+\usage{
+Spikes
+}
 \description{
 This is initally created by CollectSpikes.R. The object is of
 class \code{\link[gphys]{spiketimes}}.
@@ -11,3 +15,4 @@ class \code{\link[gphys]{spiketimes}}.
 \seealso{
 \code{\link{smSpikes}}, \code{\link{Vm}}
 }
+\keyword{datasets}
